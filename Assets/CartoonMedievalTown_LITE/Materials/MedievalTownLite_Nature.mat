@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MedievalTownLite_Nature
+  m_Shader: {fileID: 4800000, guid: a2a06e22c08354d9699356710b69ca9c, type: 3}
+  m_ValidKeywords:
+  - BASE_CONTRAST
+  - BASE_SATURATION
+  - CUTOUT
+  - MATCAP
+  - MATCAP_CONTRAST
+  - MATCAP_PERSPECTIVE
+  - NORMAL_MAP
+  - SHADOWS_ENABLED
+  - _MATCAPBLEND_MULTIPLY
+  m_InvalidKeywords:
+  - OUTLINE_PASS_DISABLED
+  - _ALPHATEST_ON
+  - _DETAIL_MULX2
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - SRPDEFAULTUNLIT
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 2800000, guid: 8ae098f12a8d453439ed9182a67f0521, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 8ae098f12a8d453439ed9182a67f0521, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCapTex:
+        m_Texture: {fileID: 2800000, guid: a963d58eeb8ba4dcba68a834b536f62a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 2800000, guid: 5a0af8b1728978c4d8e3fc1d3b1576d1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_5B6B3281_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 2e4238d79a3ec4545b084898f6c9b3aa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_cae309b48d319285b92a99883c98709b_Texture_1:
+        m_Texture: {fileID: 2800000, guid: b822cf11f96e34b1db86c1e2e3965f39, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - GradientSmoothness: 1
+    - Vector1_387E92A5: 0.2
+    - _AmbientBrightness: 0
+    - _BlendOp: 0
+    - _Brightness: 6
+    - _BumpScale: 1
+    - _Contrast: 1.53
+    - _Cull: 2
+    - _Cutoff: 0
+    - _Cutout: 1
+    - _DestBlend: 10
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _Fog: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _IgnoreMainTexAlpha: 0
+    - _MatCapBlend: 0
+    - _MatCapBrightness: 5.39
+    - _MatCapContrast: 1.15
+    - _MatCapPerspective: 1
+    - _MatCapStatic: 0
+    - _Metallic: 0
+    - _Mode: 1
+    - _NormalStrength: 5
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Preset: 0
+    - _Saturation: 1.32
+    - _ShadowsEnabled: 1
+    - _SmoothnessTextureChannel: 0
+    - _SourceBlend: 5
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZOffset: 0
+    - _ZTest: 4
+    - _ZWrite: 1
+    m_Colors:
+    - BottomColor: {r: 0, g: 0, b: 0, a: 0}
+    - TopColor: {r: 1, g: 1, b: 1, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MatCapColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MatCapRot: {r: 0, g: 0, b: 0, a: 0}
+    - _ShadowColor: {r: 0.3, g: 0.3, b: 0.3, a: 1}
+  m_BuildTextureStacks: []
