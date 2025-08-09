@@ -1187,7 +1187,8 @@ MonoBehaviour:
   playerPrefab: {fileID: 4818117288074744475, guid: 8a13501f8344e4547a6cec63672c7eef, type: 3}
   autoCreatePlayer: 1
   playerSpawnMethod: 0
-  spawnPrefabs: []
+  spawnPrefabs:
+  - {fileID: 6929539558283741839, guid: 54eb13ea27a98d248b929783b3a5fd0b, type: 3}
   snapshotSettings:
     bufferTimeMultiplier: 2
     bufferLimit: 32
@@ -2790,7 +2791,7 @@ MonoBehaviour:
   _playerPrefab: {fileID: 6929539558283741839, guid: 54eb13ea27a98d248b929783b3a5fd0b, type: 3}
   _addToQueue: {fileID: 633989685}
   _removeFromQueue: {fileID: 1735764746}
-  _sceneMode: 0
+  _sceneMode: 1
   _requiredPlayers: 1
 --- !u!1 &2072504582
 GameObject:
